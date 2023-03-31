@@ -1,0 +1,29 @@
+.sideBar{
+    background-color: #808080;
+    position: fixed;
+    height: 100%;
+    width : 20em;
+    right : 0;
+    border: solid 3px;
+    z-index: 2;
+    overflow: scroll;
+}
+
+.sideBar-close{
+    overflow: hidden;
+    display: none;
+}
+
+.sideBar-btn--close{
+    position: fixed;
+    right: 20em;
+}
+
+.sideBar-btn--close > button, .sideBar-btn--open > button {
+    border-width: medium;
+}
+
+.sideBar-btn--open{
+    position: fixed;
+    right: 0;
+}

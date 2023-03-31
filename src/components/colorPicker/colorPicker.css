@@ -1,0 +1,24 @@
+.colorPicker-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.colorPicker-dropdown{
+    margin-top : 20px;
+}
+
+
+@media screen and (max-height: 600px){
+    .colorPicker-wrapper{
+        margin-top : 20px
+    }  
+}
+
+@media screen and (max-height: 400px){
+    .colorPicker-wrapper{
+        margin-top : 13px
+    }  
+}
